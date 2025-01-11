@@ -13,7 +13,7 @@ set -ouex pipefail
 dnf install -y tmux 
 
 # this would install a package from rpmfusion
-# rpm-ostree install vlc
+rpm-ostree install vlc
 
 #### Example for enabling a System Unit File
 
